@@ -1,0 +1,39 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor-header{
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.menu a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    background-color: blueviolet;
+}
+
+/* inicio de la primera sección*/
+.sect1{
+    width: 100%;
+    height: 450px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+}
+.imagenHanna{
+    width: 300px;
+}
+.textoP{
+    width: 70%;
+}
+/* fin de la primera sección*/

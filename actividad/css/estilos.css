@@ -1,0 +1,25 @@
+body{
+    background-image: url(../imagenes/Hanna.jpeg);
+    background-repeat: no-repeat;/* sirve para que no se repita la imagen */
+    background-size: cover;/*sirve para ajustar la imagen al fondo de pantalla*/
+    background-position-y: -500px;/*mover la posicion de la imagen en vertical eje Y*/
+}
+#titulo1{
+    color: rgba(249, 19, 7, 0.524);
+}
+@font-face {
+    font-family: 'PeachCake';
+    src: url(../PeachCake.otf);
+}
+.titulo{
+   font-family: 'PeachCake';
+   font-size: 50px;/*tamaño de la fuente*/
+   text-align: center;
+    
+}
+.imagen1{
+    width: 200px;/*ancho de la imagen*/
+    height: 250px;/* alto de la imagen*/  
+    border: 4px solid #aa22bb;  
+    border-radius: 30%;
+}
